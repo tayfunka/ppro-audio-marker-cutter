@@ -1,11 +1,11 @@
-# Premiere Pro ExtendScript: Cut Sequence Clips by Audio Markers
+# Premiere Pro ExtendScript: Razor and Delete Sequence Clips by Audio Markers
 
 This project is an ExtendScript utility designed for Adobe Premiere Pro 23.0. It automates the process of cutting sequence clips based on audio markers. The script identifies marker sections on the audio track and removes the corresponding sequence items within those time ranges.
 
 ## Features
 
 - Detects audio markers in a sequence.
-- Cuts sequence clips based on the time ranges defined by the markers.
+- Razor and deletes sequence clips based on the time ranges defined by the markers.
 - Simplifies repetitive editing tasks, saving time and effort.
 
 ## Example Use Case
@@ -28,12 +28,12 @@ If the audio track has markers from 1 second to 3 seconds, the script will:
 ## Usage
 
 1. Open your Premiere Pro project and load the sequence you want to edit.
-2. Place markers on the audio track to define the sections you want to cut.
+2. Place markers on the audio track to define the sections you want to razor.
 3. In VS Code, open the `cutMarkers.jsx` script.
 4. Use the ExtendScript Debugger to connect to Premiere Pro:
    - Set the target application to Premiere Pro.
    - Run the script to evaluate it in Premiere Pro.
-5. The script will process the markers and cut the sequence clips accordingly.
+5. The script will process the markers and razor the sequence clips accordingly.
 
 ## Key Script: `cutMarkers.jsx`
 
